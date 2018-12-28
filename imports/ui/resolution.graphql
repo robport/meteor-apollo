@@ -1,0 +1,15 @@
+query Resolutions  {
+    resolutions {
+        _id
+        name
+        userId
+        goals {
+            _id
+            name
+        }
+    }
+    currentUser {
+        _id
+        email
+    }
+}
