@@ -35,8 +35,6 @@ const server = new ApolloServer({
   }
 });
 
-// console.log('svdjkvfghvhgvbvcbchvnkdknknjvndjk');
-
 server.applyMiddleware({
   app: WebApp.connectHandlers,
   path: '/graphql'
